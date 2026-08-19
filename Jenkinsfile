@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Node1' } // Tells Jenkins to run this on your specific AWS server
+    agent { label 'agent any' } // Tells Jenkins to run this on your specific AWS server
 
     stages {
         stage('Build Docker Image') {
